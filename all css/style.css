@@ -1,11 +1,10 @@
 :root {
-  --primary-color: #00b4d8;
-
-
   --facebook-color: #1877f2;
   --twitter-color: #1da1f2;
   --instagram-color: #e4405f;
   --linkedin-color: #0a66c2;
+  --youtube-color: #ff0000;
+  --github-color: #171515; 
 }
 
 * {
@@ -97,6 +96,14 @@ header {
 }
 .social-icons .fa-linkedin:hover {
   color: var(--linkedin-color);
+  transform: scale(1.2);
+}
+.social-icons .fa-youtube:hover {
+  color: var(--youtube-color);
+  transform: scale(1.2);
+}
+.social-icons .fa-github:hover {
+  color: var(--github-color);
   transform: scale(1.2);
 }
 
